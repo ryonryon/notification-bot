@@ -1,0 +1,22 @@
+{
+  "name": "notification-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryotogashi/notification-bot.git"
+  },
+  "author": "ryotogashi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryotogashi/notification-bot/issues"
+  },
+  "homepage": "https://github.com/ryotogashi/notification-bot#readme",
+  "dependencies": {
+    "botkit": "^0.7.2"
+  }
+}
