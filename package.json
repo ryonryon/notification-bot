@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "dependencies": {
     "botkit": "^0.7.2",
     "eslint": "^5.14.0"
+  },
+  "devDependencies": {
+    "jest": "^24.1.0"
   }
 }
