@@ -1,8 +1,16 @@
-# notification-bot
+
+
+Setting in Slack
+
+https://my.slack.com/services/new/bot
+
+Create new bot and get a token.
+
+
+
 
 
 review's comment by axross
-
 // TODO: do not import packages in the middle of the code
 // TODO: use camel case instead
 // TODO: add an additional line before return statements
