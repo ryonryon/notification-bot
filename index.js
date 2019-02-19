@@ -58,6 +58,10 @@ const main = () => {
         });
       }
     });
+
+    controller.hears('hi', 'direct_message', function(bot, message){
+      bot.reply(message.user);
+    });
   
     return 0;
 

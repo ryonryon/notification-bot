@@ -1,6 +1,6 @@
 {
     "list":["python"],
-    "slackUrl": "",
-    "token": "",
+    "slackUrl": "https://cornerstone19jan.slack.com",
+    "token": "xoxb-517661002640-553563212580-L9N0i16R1uzE81MoB9LbxGJT",
     "msgRecieveUserId": "UF86UA98U"
 }
