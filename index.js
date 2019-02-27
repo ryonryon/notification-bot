@@ -15,6 +15,10 @@ const main = () => {
     if (!fs.existsSync(jsonFile)){
       throw 91;
     }
+    if(!process.env.token) {
+      throw 92;
+    }
+
     const json = JSON.parse(fs.readFileSync(jsonFile, UTF8));
   
     const controller = botkit.slackbot({
@@ -23,7 +27,7 @@ const main = () => {
   
     controller
       .spawn({
-        token: json.token
+        token: process.env.token
       })
       .startRTM(function(err) {
         if (err) {
@@ -69,6 +73,8 @@ const main = () => {
 
     if (err === 91) {
       console.log(`Path (${jsonFile}) is not exist.`);
+    } else if (err === 92){
+      console.log('You have to give me token.')
     } else {
       console.log(err);
     }; 
